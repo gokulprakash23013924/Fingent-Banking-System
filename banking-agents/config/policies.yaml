@@ -1,0 +1,47 @@
+# All business thresholds live here so rules change without code changes.
+
+loan:
+  min_amount: 50000
+  max_amount: 2500000
+  min_tenure_months: 6
+  max_tenure_months: 84
+  default_tenure_months: 36
+  min_credit_score: 650
+  max_foir: 0.50                      # (existing EMI + new EMI) / monthly income
+  max_amount_multiple_of_monthly_income: 20
+  rates:                              # highest matching min_score wins
+    - {min_score: 750, annual_rate: 10.5}
+    - {min_score: 700, annual_rate: 12.0}
+    - {min_score: 650, annual_rate: 14.0}
+
+fraud:
+  review_threshold: 50
+  block_threshold: 70
+  anomaly_weight: 15                  # max points added by the IsolationForest
+  night_hours: [0, 1, 2, 3, 4, 5]
+  velocity_window_minutes: 10
+  velocity_count: 3
+  weights:
+    amount_z_high: 30                 # z >= 3  (kept below review_threshold - anomaly_weight so size alone never triggers review)
+    amount_z_mid: 15                  # z >= 2
+    new_device: 20
+    foreign_country: 20
+    night_hour: 10
+    new_merchant: 5
+    velocity: 15
+
+risk_signals:                         # used by the loan playbook
+  lookback_days: 30
+  max_transactions: 25
+  refer_if_flagged_count: 2
+  refer_if_max_score: 70
+
+compliance:
+  kyc_max_age_days: 365
+  large_transfer_threshold: 50000
+
+ladder:
+  tier1_min_confidence: 0.50
+  tier2_min_confidence: 0.60
+  tier3_min_confidence: 0.50
+  max_intents_per_request: 3

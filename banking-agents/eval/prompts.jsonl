@@ -1,0 +1,64 @@
+{"text": "How much money is in my account right now?", "expected": ["check_balance"]}
+{"text": "balence pls", "expected": ["check_balance"]}
+{"text": "Can you tell me what my savings balance is", "expected": ["check_balance"]}
+{"text": "what's the current balance in my current account", "expected": ["check_balance"]}
+{"text": "mere account mein kitne paise hain", "expected": ["check_balance"]}
+{"text": "available funds?", "expected": ["check_balance"]}
+{"text": "Show me my last 10 transactions", "expected": ["mini_statement"]}
+{"text": "what have I been spending on lately", "expected": ["mini_statement"]}
+{"text": "send me my mini statement", "expected": ["mini_statement"]}
+{"text": "list recent debits and credits", "expected": ["mini_statement"]}
+{"text": "last five payments from my account", "expected": ["mini_statement"]}
+{"text": "is my debit card still working", "expected": ["card_status"]}
+{"text": "what's my card limit", "expected": ["card_status"]}
+{"text": "has my card been blocked?", "expected": ["card_status"]}
+{"text": "which accounts do I have with you", "expected": ["account_info"]}
+{"text": "show my profile details", "expected": ["account_info"]}
+{"text": "There's a charge of ₹32,000 on my account that I never made", "expected": ["report_fraud"]}
+{"text": "I don't recognize the 48000 payment at GLOBALTECH", "expected": ["report_fraud"]}
+{"text": "somebody used my card in Dubai", "expected": ["report_fraud"]}
+{"text": "unauthorised transaction T900001", "expected": ["report_fraud"]}
+{"text": "I think my account has been compromised, money is missing", "expected": ["report_fraud"]}
+{"text": "fraud alert - I didn't do this payment", "expected": ["report_fraud"]}
+{"text": "my card got stolen, please block it", "expected": ["block_card"]}
+{"text": "freeze my debit card now", "expected": ["block_card"]}
+{"text": "lost my wallet with the card in it, block card", "expected": ["block_card"]}
+{"text": "block card ending 8504", "expected": ["block_card"]}
+{"text": "do I qualify for a personal loan?", "expected": ["loan_eligibility"]}
+{"text": "what's the maximum loan I can get", "expected": ["loan_eligibility"]}
+{"text": "I'm looking to borrow 8 lakh over 5 years, am I eligible", "expected": ["loan_eligibility"]}
+{"text": "can I take a ₹3,00,000 loan", "expected": ["loan_eligibility"]}
+{"text": "what would the emi be on 10 lakh for 5 years at 11%", "expected": ["calculate_emi"]}
+{"text": "emi for 2 lakh 24 months", "expected": ["calculate_emi"]}
+{"text": "calculate my monthly instalment for a 6 lakh loan over 4 years", "expected": ["calculate_emi"]}
+{"text": "I'd like to apply for a personal loan of 5 lakh", "expected": ["apply_loan"]}
+{"text": "please start my loan application for ₹4,00,000 for 48 months", "expected": ["apply_loan"]}
+{"text": "apply for loan", "expected": ["apply_loan"]}
+{"text": "I want to take a loan of 2 lakh for 3 years", "expected": ["apply_loan"]}
+{"text": "any update on my loan application?", "expected": ["loan_status"]}
+{"text": "where's my loan request at", "expected": ["loan_status"]}
+{"text": "status of my loan", "expected": ["loan_status"]}
+{"text": "transfer ₹12,000 to A1004", "expected": ["transfer_money"]}
+{"text": "send 500 rupees to A1003", "expected": ["transfer_money"]}
+{"text": "move 60000 to account A1008", "expected": ["transfer_money"]}
+{"text": "do I have any new alerts", "expected": ["view_alerts"]}
+{"text": "show me recent notifications", "expected": ["view_alerts"]}
+{"text": "is my KYC up to date", "expected": ["kyc_status"]}
+{"text": "do I need to redo my kyc", "expected": ["kyc_status"]}
+{"text": "why was that declined?", "expected": ["explain_decision"]}
+{"text": "can you explain why you flagged it", "expected": ["explain_decision"]}
+{"text": "hello", "expected": ["help"]}
+{"text": "what can you do for me", "expected": ["help"]}
+{"text": "hi there", "expected": ["help"]}
+{"text": "which mutual fund gives best returns", "expected": ["out_of_scope"]}
+{"text": "should I put my money in gold", "expected": ["out_of_scope"]}
+{"text": "what's the weather like in Mumbai", "expected": ["out_of_scope"]}
+{"text": "tell me a joke", "expected": ["out_of_scope"]}
+{"text": "recommend stocks for next month", "expected": ["out_of_scope"]}
+{"text": "Can I get a loan? I also see a transaction I don't recognize", "expected": ["loan_eligibility", "report_fraud"]}
+{"text": "show my balance and then my last 3 transactions", "expected": ["check_balance", "mini_statement"]}
+{"text": "block my card and report a fraudulent payment of 5000", "expected": ["block_card", "report_fraud"]}
+{"text": "what's my balance. also what's my loan status", "expected": ["check_balance", "loan_status"]}
+{"text": "I need something", "expected": ["clarify"]}
+{"text": "asdf", "expected": ["clarify"]}
+{"text": "it's not working", "expected": ["clarify"]}
