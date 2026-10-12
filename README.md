@@ -21,7 +21,7 @@ Every request runs through an auditable **Observe → Think → Act → Evaluate
 - **Configurable policy.** Loan limits, credit-score cut-offs, FOIR, and fraud thresholds live in [`banking-agents/config/policies.yaml`](banking-agents/config/policies.yaml), not in code.
 
 ## Architecture
-<img width="1377" height="918" alt="WhatsApp Image 2026-10-12 at 9 50 44 PM" src="https://github.com/user-attachments/assets/a3741751-c31a-4a99-8bbc-191856d6ac76" />
+<img width="1377" height="918" alt="WhatsApp Image 2026-10-12 at 9 50 44 PM" src="https://github.com/user-attachments/assets/0a2140e9-1195-401c-abcb-77e0e395043f" />
 
 
 
@@ -31,26 +31,30 @@ Every request runs through an auditable **Observe → Think → Act → Evaluate
 ### Sign in
 
 One-click demo credentials for customers and supervisors.
-<img width="1870" height="992" alt="Screenshot 2026-10-12 203438" src="https://github.com/user-attachments/assets/0cef6e8e-781e-40ec-ae39-77fad94e53f7" />
+<img width="1870" height="992" alt="Screenshot 2026-10-12 203438" src="https://github.com/user-attachments/assets/66eaab1a-81a5-478c-9663-a31e17cb7082" />
 
 
 ### Customer portal
 
 The AI banking assistant answers in natural language. The side panel shows the customer context and a live Observe–Think–Act inspector (workflow state, observed intent, agents used, self-evaluation, latency).
-<img width="1870" height="992" alt="Screenshot 2026-10-12 203534" src="https://github.com/user-attachments/assets/59b684a2-0bad-4ab4-85db-a4619e49cb56" />
+<img width="1870" height="992" alt="Screenshot 2026-10-12 203534" src="https://github.com/user-attachments/assets/aa0794a6-efb1-4309-862a-aba0eb2a26a8" />
+
 
 
 Accounts, cards, credit score, KYC status, loan facilities, and recent transactions with real-time Isolation Forest fraud scoring.
-<img width="1870" height="992" alt="Screenshot 2026-10-12 203600" src="https://github.com/user-attachments/assets/1e4fb8e7-b115-4c22-8a90-fa7c1d1c1a28" />
+<img width="1870" height="992" alt="Screenshot 2026-10-12 203600" src="https://github.com/user-attachments/assets/6eb0e844-3c33-4d87-8705-658301d9ef00" />
+
 
 ### Supervisor / RM portal
 
 Bank-wide Customer 360 view with the same account, card, and transaction detail for any customer.
-<img width="1872" height="995" alt="Screenshot 2026-10-12 203646" src="https://github.com/user-attachments/assets/a52fbe64-6558-4ca2-a1be-a0327319ad0a" />
+<img width="1871" height="991" alt="Screenshot 2026-10-12 203657" src="https://github.com/user-attachments/assets/f6515c0f-82eb-42a7-a243-47e6ab344f80" />
+
 
 
 The Supervisor AI Assistant allows cross-customer queries, which customer accounts do not.
-<img width="1866" height="992" alt="Screenshot 2026-10-12 204011" src="https://github.com/user-attachments/assets/6562737c-a5f9-44d2-a847-3cd8c6e927d4" />
+<img width="1866" height="992" alt="Screenshot 2026-10-12 204011" src="https://github.com/user-attachments/assets/527eb9b7-9e61-49c8-89cc-8e9ccb86c2f0" />
+
 
 ## Project layout
 
